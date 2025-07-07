@@ -47,6 +47,7 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About </span></a></li>
         <li><a href="#skills"><i class="bi bi-laptop navicon"></i><span>Skills</span></a></li>
+        <li><a href="#experiences"><i class="bi bi-briefcase navicon"></i><span>Experience</span></a></li>
         <li><a href="#projects"><i class="bi bi-folder"></i><span>Projects</span></a></li>
         <li><a href="#services"><i class="bi bi-journal-richtext"></i><span>Certificates</span></a></li>
         <li><a href="#contact"><i class="bi bi-telephone navicon"></i><span>Contact</span></a></li>
@@ -555,14 +556,80 @@
 
 
 
-   <!-- Portfolio Section -->
+<!-- Experiences Section -->
+<section id="experiences" class="experience-section section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2 class="">My Experiences</h2>
+    <p class="subtitle">
+      "Explore internships and research experiences that reflect my expertise in AI, ML, data engineering, and academic research—each contributing to my technical and problem-solving growth."
+    </p>
+  </div><!-- End Section Title -->
+
+  <!-- Experience Timeline -->
+  <div class="container experience-timeline">
+
+    <!-- Experience 1 -->
+    <div class="experience-item" data-aos="fade-up">
+    <h3 class="experience-header"><strong>Research Internship – NIT Tiruchirappalli (NITT)</strong></h3>
+      <p class="experience-description">
+         Developed an AI tool for emotion detection in artworks by analyzing dominant colors using K-Means clustering. Used Plutchik’s emotion model and Euclidean distance for mapping, generating emotion charts and HSI-based color analytics.
+      </p>
+      <ul class="experience-highlights">
+        <li>Project: Emotion Detection in Colours Associated in an Art</li>
+        <li>Applied unsupervised learning (K-Means)</li>
+        <li>Visualized color-emotion mappings using Plutchik's model</li>
+        <li>Generated emotion breakdown and confidence analytics</li>
+      </ul>
+      <a href="#" target="_blank" class="certificate-link">View Certificate</a>
+    </div>
+
+    <!-- Experience 2 -->
+    <div class="experience-item" data-aos="fade-up">
+    <h3 class="experience-header"><strong>AWS Data Engineering Virtual Internship</strong></h3>
+      <p class="experience-description">
+        Gained hands-on experience in cloud-based data engineering using AWS services like S3, Glue, Redshift, and Lambda. Designed and deployed ETL pipelines and automated workflows.
+      </p>
+      <ul class="experience-highlights">
+        <li>Cloud services: S3, Glue, Redshift, Lambda</li>
+        <li>ETL pipeline design and execution</li>
+        <li>Workflow automation in AWS</li>
+      </ul>
+      <a href="#" target="_blank" class="certificate-link">View Certificate</a>
+    </div>
+
+    <!-- Experience 3 -->
+    <div class="experience-item" data-aos="fade-up">
+      <h3 class="experience-header"><strong>Google AI-ML Virtual Internship, Eduskills Foundation</strong></h3>
+      <p class="experience-description">
+        Studied AI/ML fundamentals including supervised and unsupervised learning, model evaluation, data preprocessing, and feature engineering. Applied algorithms to real-world datasets using Python and frameworks like scikit-learn and TensorFlow.
+      </p>
+      <ul class="experience-highlights">
+        <li>Mastered supervised & unsupervised learning methods</li>
+        <li>Hands-on with scikit-learn and TensorFlow</li>
+        <li>Applied ML on real-world datasets</li>
+        <li><a href="#" target="_blank" style="color: #007bff;">View Certificate</a></li>
+      </ul>
+      <a href="#" target="_blank" class="certificate-link">View Certificate</a>
+    </div>
+
+  </div><!-- End Experience Timeline -->
+
+</section><!-- /Experiences Section -->
+
+
+
+
+
+<!-- Portfolio Section -->
 <section id="projects" class="portfolio section">
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2 class="">My Projects</h2>
     <p class="subtitle">
-      "Explore my collection of projects that demonstrate my proficiency across various fields, such as robotics, IoT, machine learning, and web development, showcasing my ability to craft innovative solutions to real-world challenges."
+      "Explore my collection of projects that demonstrate my proficiency in AI, ML, computer vision, full-stack development, and data science, tackling real-world problems with robust and innovative tech solutions."
     </p>
   </div><!-- End Section Title -->
 
@@ -571,72 +638,100 @@
 
     <!-- Project 1 -->
     <div class="project-card" data-aos="fade-up">
-      <h3 class="project-title text-black"><strong>Arduino Obstacle Avoiding Robot</strong></h3>
+      <h3 class="project-title text-black"><strong>Indian Test Cricketers Stats Management System</strong></h3>
       <p class="project-description">
-        A cutting-edge DIY robot integrating obstacle avoidance, voice control, and Bluetooth control for seamless navigation and user interaction. Features ultrasonic sensors for real-time detection and a smartphone app for remote control, showcasing advanced skills in robotics and hardware programming.
+        Developed a web application to manage and analyze Indian Test cricketers’ statistics using MySQL and Flask. It includes player profiles, dynamic templates, search, and automatic age calculation.
       </p>
       <ul class="project-highlights">
-        <li>Ultrasonic sensors for real-time obstacle detection</li>
-        <li>Voice control through a speech recognition module</li>
-        <li>Bluetooth remote operation via a smartphone app</li>
+        <li>MySQL + Flask-based dynamic web app</li>
+        <li>Modules for player stats and profile management</li>
+        <li>Automated age calculation and seamless navigation</li>
       </ul>
     </div>
 
     <!-- Project 2 -->
     <div class="project-card" data-aos="fade-up">
-      <h3 class="project-title text-black"><strong>RFID Attendance System</strong></h3>
+      <h3 class="project-title text-black"><strong>Emotion Detection in Colours Associated in Art</strong></h3>
       <p class="project-description">
-        An efficient contactless attendance solution leveraging RFID technology and ESP8266 for real-time tracking. Designed to improve attendance management through seamless integration of hardware and software components.
+           Built an AI-based tool using K-Means clustering and Plutchik’s model to map dominant colors in artworks to emotions. Included Euclidean distance computation and visual emotion analytics.
       </p>
       <ul class="project-highlights">
-        <li>Components: RFID Reader, RFID Card, NodeMCU ESP8266, LCD Display</li>
-        <li>Arduino programming for real-time tracking</li>
-        <li>Practical solution for modern attendance systems</li>
+        <li>Color clustering and HSI-based analysis</li>
+        <li>Mapped to emotions using Plutchik's Wheel</li>
+        <li>Generated visual charts with confidence levels</li>
       </ul>
     </div>
 
     <!-- Project 3 -->
     <div class="project-card" data-aos="fade-up">
-      <h3 class="project-title text-black"><strong>Smart Parking System</strong></h3>
+      <h3 class="project-title text-black"><strong>Diabetes Detection with Risk-Level Analysis</strong></h3>
       <p class="project-description">
-        A robust parking management solution developed using Java (Spring Boot) and H2 Database. It offers real-time space availability tracking, booking features, and user notifications to enhance operational efficiency and user experience.
+        Developed a machine learning-based web application to predict diabetes and categorize risk levels into Low, Moderate, and High using real-time health data inputs.
       </p>
       <ul class="project-highlights">
-        <li>Tech Stack: Java, Spring Boot, H2 Database</li>
-        <li>Frontend: HTML, CSS, JavaScript</li>
-        <li>Real-time availability and booking notifications</li>
+        <li>Algorithms: Random Forest, Logistic Regression</li>
+        <li>Risk-level insights integrated in output</li>
+        <li>Live demo interface for patient testing</li>
       </ul>
     </div>
 
     <!-- Project 4 -->
     <div class="project-card" data-aos="fade-up">
-      <h3 class="project-title text-black"><strong>COVID-19 Prediction Using Machine Learning</strong></h3>
+      <h3 class="project-title text-black"><strong>AI-Powered Plant Disease Detection</strong></h3>
       <p class="project-description">
-        An AI-powered prediction system that analyzes infection trends, recovery rates, and fatality patterns using real-world datasets. Employs Python and machine learning techniques for accurate forecasting and visual analytics.
+        Designed a CNN-based web app for classifying plant diseases from leaf images with 96%+ accuracy. Utilized modular design for different crop models and implemented Flask for predictions.
       </p>
       <ul class="project-highlights">
-        <li>Libraries: Pandas, NumPy, Scikit-learn</li>
-        <li>Features: Predictive modeling and visual analytics</li>
-        <li>Impact: Scalable solution for pandemic preparedness</li>
+        <li>Tech: CNN, TensorFlow, Flask</li>
+        <li>Modular setup for multiple crops</li>
+        <li>User-friendly interface with dynamic routing</li>
       </ul>
     </div>
 
     <!-- Project 5 -->
     <div class="project-card" data-aos="fade-up">
-      <h3 class="project-title text-black"><strong>Diabetes Prediction Using Machine Learning</strong></h3>
+      <h3 class="project-title text-black"><strong>Healthcare Fraud Detection Using Random Forest</strong></h3>
       <p class="project-description">
-        A diabetes risk assessment tool built using Python and machine learning algorithms like Random Forest and Logistic Regression. It predicts diabetes risk based on health metrics, providing a proactive healthcare solution.
+        Built and trained a machine learning model using Random Forest to detect healthcare fraud types such as phantom billing and ghost patients by applying preprocessing and class balancing.
       </p>
       <ul class="project-highlights">
-        <li>Key Metrics: Glucose levels, BMI, age, blood pressure</li>
-        <li>Tools: Pandas, NumPy, Scikit-learn, Matplotlib</li>
-        <li>User-friendly interface for instant predictions</li>
+        <li>Used Scikit-learn, Pandas, and NumPy</li>
+        <li>Feature engineering and data preprocessing</li>
+        <li>Improved fraud detection with balanced datasets</li>
+      </ul>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="project-card" data-aos="fade-up">
+      <h3 class="project-title text-black"><strong>University Management System</strong></h3>
+      <p class="project-description">
+        Developed a full-stack system using Java and SQL for managing university data. Modules include students, faculty, courses, marks, and efficient data storage with secure access.
+      </p>
+      <ul class="project-highlights">
+        <li>Backend: Java; Database: SQL</li>
+        <li>Modular components for user and academic records</li>
+        <li>Robust and scalable design for administration</li>
+      </ul>
+    </div>
+
+    <!-- Project 7 -->
+    <div class="project-card" data-aos="fade-up">
+      <h3 class="project-title text-black"><strong>Real-Time Rock-Paper-Scissors Game Using AI</strong></h3>
+      <p class="project-description">
+        Built a real-time game using CNN for gesture recognition and OpenCV for video feed. Integrated a rule-based AI to counter user actions and ensure smooth, strategic gameplay.
+      </p>
+      </p>
+      <ul class="project-highlights">
+        <li>Real-time gesture recognition using CNN + OpenCV</li>
+        <li>Strategic rule-based AI decision engine</li>
+        <li>Responsive and modular game design</li>
       </ul>
     </div>
 
   </div><!-- End Portfolio Container -->
 
 </section><!-- /Portfolio Section -->
+
 
 <style>
   .portfolio.section {
@@ -714,8 +809,6 @@
     font-size: 1rem;
   }
 </style>
-
-
 
 
 
